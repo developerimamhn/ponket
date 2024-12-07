@@ -3,19 +3,157 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
+  --background: #FFBB02;
   --foreground: #171717;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #FFBB02;
     --foreground: #ededed;
   }
+}
+
+@font-face {
+  font-family: "Welcome Magic";
+  src: url(./fonts/Welcome Magic.otf);
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.Link-manu-bar{
+  font-family: "Welcome Magic";
+  font-weight: 400;
+  line-height: 23.4px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #060000;
+}
+
+.main-icon-li{
+  background: #FFF6B8;
+  border: 1px solid #060000;
+  box-shadow: 1px 1px 0px 0px #060000;
+}
+
+.ponket-heaading{
+  font-family: "Welcome Magic";
+  font-weight: 400;
+  line-height: 166.56px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #060000;
+  text-shadow: 2px 4px 0px #FFFFFF;
+}
+.copy-styling-items{
+  background: #FFDF00;
+  border: 1px solid #060000;
+  box-shadow: 1px 1px 0px 0px #060000;
+  font-family: "Welcome Magic";
+  font-weight: 400;
+  color: #060000;
+  text-shadow: 0px 2px 0px #FFFFFF;
+}
+#copy{
+  background: #FFF6B8;
+  border: 1px solid #060000;
+  box-shadow: 2px 2px 0px 0px #000A0D;
+  font-family: "Welcome Magic";
+  font-weight: 400;
+  line-height: 28.6px;
+  text-align: left;
+  color: #060000;
+}
+
+.buttongroup{
+  background: #ED2424;
+  border: 1px solid #060000;
+  box-shadow: 2px 2px 0px 0px #060000;
+  font-family: Welcome Magic;
+  font-weight: 400;
+  line-height: 28.6px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+}
+
+.TOKEN-ADDRESS{
+  font-family: Welcome Magic;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28.6px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #060000;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-slide {
+  animation: slide 20s linear infinite;
+}
+
+
+.buy-card{
+  background: #FFF6B8;
+  border: 1px solid #060000;
+  box-shadow: 4px 6px 0px 0px #060000;
+  border-radius: 16px;
+}
+
+.createpageheader{
+  font-family: "Welcome Magic";
+  font-weight: 400;
+  line-height: 50.4px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #060000;
+  text-shadow: 1px 2px 0px #8F8A78;
+}
+
+.logoiamgestyling{
+  background: #FFF6B8;
+  border: 1px solid #060000;
+  box-shadow: 4px 6px 0px 0px #060000;
+  border-radius: 6px;
+}
+
+.totalsupply{
+  font-family: "Welcome Magic";
+  font-weight: 400;
+  line-height: 50.4px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #060000;
+}
+
+.lastgroup{
+  background: #FFF8E5;
+  border: 1px solid #060000;
+  box-shadow: 2px 2px 0px 0px #060000;
+  border-radius: 8px;
+}
+
+.containerLast{
+  background: #FFF6B8;
+  border: 1px solid #060000;
+  box-shadow: 4px 6px 0px 0px #060000;
+  border-radius: 16px;
 }

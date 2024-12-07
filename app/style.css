@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&family=Nobile:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Noto+Sans+Avestan&family=Quicksand:wght@300..700&family=Sigmar+One&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.quicksand{
+  font-family: "Quicksand", sans-serif;
+}
+
+.ponket-pragraph{
+  font-family: "Quicksand";
+  font-weight: 700;
+  line-height: 37.4px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #060000;
+}
+
+.createpagepragraph{
+  font-family: "Quicksand";
+  font-weight: 600;
+  line-height: 41.4px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #060000;
+}
+
+.totalsupply-number{
+  font-family: "Quicksand";
+  font-weight: 600;
+  line-height: 39.6px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #060000;
+}
+
+footer{
+  box-shadow: 0px -4px 4px 0px #00000014;
+}
