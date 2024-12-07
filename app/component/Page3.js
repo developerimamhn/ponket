@@ -11,7 +11,7 @@ import image17 from '../image/Imagearea/Vector1.png';
 
 const Page3 = () => {
     return (
-        <div>
+        <div id='Howtobuy'>
             <div className='container mx-auto py-[50px] md:py-[70px] lg:py-[100px] xl:py-[140px] 2xl:py-[180px] pb-[50px] sm:pb-[10px] xl:pb-[20px] sm:px-[0] px-[24px]'>
             <h1 className='mb-[8px] ponket-heaading text-[40px] md:text-[50px] lg:text-[60px] xl:text-[80px] 2xl:text-[99px] !leading-[104px] !shadow-[#8F8A78] flex justify-center items-center '>HOW TO BUY</h1>
             <div className='grid grid-cols-1 sm:grid-cols-3 gap-[30px] sm:gap-[10px] md:gap-[20px] xl:gap-[30px] mt-[25px] md:mt-[40px] xl:mt-[60px]'>

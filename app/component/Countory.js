@@ -13,7 +13,7 @@ export default function Country() {
       <ReactFlagsSelect
         className="flagwdi w-[153px] align-left"
         selected={select}
-        onSelect={onSelect}
+        onSelect={onSelect} 
         countries={["US", "GB", "FR", "DE", "IT"]}
         customLabels={{
           US: "English",

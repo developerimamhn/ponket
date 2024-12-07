@@ -7,7 +7,7 @@ import image8 from '../image/image8.png';
 
 const Page2 = () => {
     return (
-        <div className='bg-[#FFF5D9]'>
+        <div className='bg-[#FFF5D9]' id='About'>
             <AutoSlider/>
             <div className='container mx-auto px-[24px] sm:px-0'>
             <div className='py-[50px] md:py-[70px] lg:py-[100px] xl:py-[140px] 2xl:py-[180px] flex justify-center items-center gap-[30px] md:gap-[40px] lg:gap-[60px] xl:gap-[80px] 2xl:gap-[100px] flex-col sm:flex-row'>

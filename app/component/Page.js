@@ -10,6 +10,7 @@ import logo from '../image/logo.png';
 import image1 from '../image/image1.png';
 import image2 from '../image/image2.png';
 import image3 from '../image/image3.png';
+import Country from './Countory';
 
 
 
@@ -59,10 +60,10 @@ const Navbar = () => {
                     ${toggle ? 'right-[10]' :'right-[130%]' }
                     ${toggle ? 'opacity-100' : 'opacity-10'} 
                     `} >
-                    <Link className={`Link-manu-bar text-[14px] md:text-[16px] xl:text-[18px]`} href="/">About</Link>
-                    <Link className='Link-manu-bar text-[14px] md:text-[16px] xl:text-[18px]' href="/">How to buy</Link>
-                    <Link className='Link-manu-bar text-[14px] md:text-[16px] xl:text-[18px]' href="/">Tokenomics</Link>
-                    <Link className='Link-manu-bar text-[14px] md:text-[16px] xl:text-[18px]' href="/">English</Link>
+                    <Link className={`Link-manu-bar text-[14px] md:text-[16px] xl:text-[18px]`} href="#About">About</Link>
+                    <Link className='Link-manu-bar text-[14px] md:text-[16px] xl:text-[18px]' href="#Howtobuy">How to buy</Link>
+                    <Link className='Link-manu-bar text-[14px] md:text-[16px] xl:text-[18px]' href="#Tokenomics">Tokenomics</Link>
+                    <Link className='Link-manu-bar text-[14px] md:text-[16px] xl:text-[18px]' href="/"><Country/></Link>
                 </nav>
 
                 
